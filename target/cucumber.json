@@ -1,0 +1,195 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-03T14:14:21.169Z",
+        "before": [
+          {
+            "result": {
+              "duration": 768441,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeValidation()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login",
+        "after": [
+          {
+            "result": {
+              "duration": 45689,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 43385413853,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Sign in page",
+            "match": {
+              "location": "stepDefination.user_is_on_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1772250364,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User login applictaion with username \"Pooja.jain@ymailinator.com\" and password \"abc123456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pooja.jain@ymailinator.com",
+                  "offset": 38
+                },
+                {
+                  "val": "abc123456",
+                  "offset": 80
+                }
+              ],
+              "location": "stepDefination.user_login_applictaion_with_username_something_and_password_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2833749503,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "dashboard is displayed is \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefination.dashboard_is_displayed_is_something(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MobileTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-06-03T14:15:09.168Z",
+        "before": [
+          {
+            "result": {
+              "duration": 78135,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeValidation()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "MH Home page Sign up",
+        "description": "",
+        "id": "application-login;mh-home-page-sign-up",
+        "after": [
+          {
+            "result": {
+              "duration": 48006,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterValidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 34437540723,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User is on Sign in page",
+            "match": {
+              "location": "stepDefination.user_is_on_sign_in_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 65812806,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User sign up with following details",
+            "match": {
+              "location": "stepDefination.user_sign_up_with_following_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "pooja",
+                  "jain",
+                  "testuser2562@yopmail.com",
+                  "9812345862",
+                  "abc123456",
+                  "abc123456"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141703,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "dashboard is displayed is \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefination.dashboard_is_displayed_is_something(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MobileTest"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]

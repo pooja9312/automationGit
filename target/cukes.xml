@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="82.498285">
+<testcase classname="Application Login" name="Home page default login" time="47.994323">
+<system-out><![CDATA[Given User is on Sign in page...............................................passed
+When User login applictaion with username "Pooja.jain@ymailinator.com" and password "abc123456".passed
+Then dashboard is displayed is "true".......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="MH Home page Sign up" time="34.503962">
+<system-out><![CDATA[Given User is on Sign in page...............................................passed
+When User sign up with following details....................................passed
+Then dashboard is displayed is "false"......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
